@@ -1,0 +1,354 @@
+/*1024-1202*/
+@media screen and (max-width: 1202px) {
+    #choose-items {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+/*1024-1105*/
+@media screen and (max-width: 1105px) {
+    #criteria-items {
+        max-width: 600px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+}
+
+/*1024-1229*/
+@media screen and (max-width: 1229px) {
+    #header .phone {
+        color: #eba8b1;
+    }
+
+    #main-container {
+        padding-top: 102px;
+        padding-bottom: 145px;
+    }
+
+    #criteria-container {
+        padding-top: 120px;
+        padding-bottom: 65px;
+    }
+
+    #criteria-description {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #criteria-description-info {
+        text-align: center;
+    }
+
+    #criteria-description-info-title {
+        margin: 0 auto;
+    }
+
+    #criteria-description-info-text {
+        max-width: 700px;
+        margin-bottom: 0;
+    }
+
+    #criteria-description-image {
+        padding: 0;
+        max-width: 302px;
+    }
+
+    .criteria-item {
+        justify-content: center;
+        text-align: center;
+        margin: 55px 27px;
+    }
+
+    .criteria-item .number {
+        margin: 0;
+    }
+
+    .criteria-item .number::before {
+        left: calc(50% - 35px);
+    }
+
+    #choose-container {
+        padding-bottom: 52px;
+    }
+
+    #choose-title {
+        margin-bottom: 75px;
+    }
+
+    #choose-items {
+        justify-content: center;
+    }
+
+    .choose-item {
+        margin: 68px 15px;
+    }
+
+    #order-container {
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #order-info {
+        margin: 0;
+    }
+
+    #order-info-text .order-info-text-img {
+        top: 35px;
+        left: calc(100% - -225px);
+    }
+
+    #order-image {
+        order: 1;
+        width: 352px;
+        display: flex;
+        height: 500px;
+        position: relative;
+    }
+
+    #order-container .img {
+        top: calc(50% - 10px);
+        left: calc(50% - -15px);
+        width: 72px;
+    }
+
+    #order-image .img2 {
+        position: absolute;
+        top: 160px;
+    }
+
+    #footer .phone {
+        display: block;
+    }
+}
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+    #main-container {
+        padding-bottom: 375px;
+        position: relative;
+    }
+
+    #main-info {
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    #main-info #main-text {
+        margin: 0 auto;
+    }
+
+    #main-image {
+        position: absolute;
+        top: 520px;
+        left: calc(50% - 66px);
+        width: 444px;
+    }
+}
+
+/*425-767*/
+@media screen and (max-width: 767px) {
+    #header .phone {
+        display: none;
+    }
+
+    #main-container {
+        flex-direction: column;
+        position: static;
+        padding-top: 102px;
+        padding-bottom: 43px;
+    }
+
+    #menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: rgba(0, 0, 0, 0.92);
+        top: 0;
+        left: 0;
+    }
+
+    #menu svg {
+        width: 40px;
+        fill: #821328;
+        margin-bottom: 25px;
+    }
+
+    #menu a.menu-item {
+        margin: 20px;
+        font-size: 25px;
+        color: whitesmoke;
+        border: 0;
+    }
+
+    #menu.open {
+        display: flex;
+    }
+
+    #burger {
+        display: block;
+        margin-right: 15px;
+    }
+
+    #burger svg {
+        width: 40px;
+        height: 40px;
+        fill: #821328;
+    }
+
+    #main-info {
+        margin: 0;
+        text-align: center;
+    }
+
+    #main-info #main-title {
+        font-size: 32px;
+        font-family: "TavolgaFree", sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.25;
+    }
+
+    #main-image {
+        max-width: 280px;
+        position: static;
+        margin-top: 38px;
+        margin-right: 0;
+    }
+
+    #criteria-description {
+        padding: 0;
+    }
+
+    #criteria-description-info-title {
+        font-size: 30px;
+        font-family: "TavolgaFree", sans-serif;
+        color: rgb(51, 25, 7);
+        line-height: 1.167;
+    }
+
+    #criteria-description-info-text {
+        font-size: 16px;
+        font-family: "GilroyRegular", sans-serif;
+        color: rgb(51, 25, 7);
+        line-height: 1.437;
+    }
+
+    #criteria-items {
+        padding: 0;
+        max-width: 400px;
+    }
+
+    .criteria-item {
+        margin: 55px 16px;
+    }
+
+    .criteria-item-title {
+        font-size: 18px;
+    }
+
+    .criteria-item-text {
+        max-width: 167px;
+        font-size: 13px;
+    }
+
+    #choose-title {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    #order-info {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #order-info-title {
+        font-size: 30px;
+        line-height: 1.167;
+    }
+
+    #order-info-text {
+        font-size: 16px;
+        line-height: 1.437;
+    }
+
+    #order-info .btn {
+        text-align: center;
+    }
+
+    #order-info input {
+        width: 319px;
+    }
+
+    #order-info .btn {
+        width: 344px;
+    }
+
+    #order-container .img {
+        top: calc(50% - 170px);
+        left: calc(50% - -75px);
+    }
+
+    #order-image .img2, #order-info-text .order-info-text-img, #order-image {
+        display: none;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    #footer-logo {
+        order: -1;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #footer-logo .logo {
+        margin: 0;
+    }
+
+    #footer-container #footer-logo .footer-logo-text {
+        display: none;
+    }
+
+    #footer-container .footer-logo-text {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer-instagram {
+        margin-bottom: 40px;
+    }
+
+    .phone {
+        order: -1;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+
+}
+
+/*320-374*/
+@media screen and (max-width: 374px) {
+    #order-container {
+        padding: 98px 5px 120px 5px;
+    }
+
+    #order-info input {
+        width: 280px;
+    }
+
+    #order-info .btn {
+        width: 305px;
+    }
+}
